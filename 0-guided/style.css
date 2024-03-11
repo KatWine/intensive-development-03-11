@@ -1,0 +1,38 @@
+html, body {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  background-color: rgb(40, 39, 39);
+}
+
+.container {
+  height: 90vh;
+  width: 90vw;
+  background-color: azure;
+  margin: 5%;
+  display: grid;
+  grid-template-columns: 35% 30% 35;
+  grid-template-rows: 25% 15% 5% 15% 10%;
+}
+.container__background {
+  grid-column: 1/4;
+  grid-row: 1/2.5;
+}
+.container__profile-pic {
+  grid-column: 2/4;
+  grid-row: 2/3;
+}
+.container__name {
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+.container__paragraph {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+.container__navbar {
+  grid-column: 2/4;
+  grid-row: 5/6;
+}
+
+/*# sourceMappingURL=style.css.map */
