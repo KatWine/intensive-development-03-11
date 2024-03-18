@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: rgb(5, 5, 5);
+}
+
+.container {
+  position: absolute;
+  background-color: rgb(23, 22, 22);
+  top: 3%;
+  left: 37%;
+  height: 95%;
+  width: 26%;
+}
+
+.lightGray {
+  position: relative;
+  top: 3%;
+  left: 7%;
+  border-radius: 3%;
+  padding: 10%;
+  height: 95%;
+  width: 85%;
+  background-color: rgb(30, 29, 29);
+}
+.lightGray__profile-pic {
+  position: relative;
+  left: 32%;
+}
+
+h1 {
+  position: relative;
+  color: white;
+  font-size: 90%;
+  font-weight: 20;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.one {
+  position: relative;
+  color: rgb(169, 249, 51);
+  font-size: 50%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.two {
+  position: relative;
+  font-size: 60%;
+  color: rgb(192, 187, 187);
+  text-align: center;
+}
+
+
+
+
+.lightGray__profile-pic img {
+  height: 30%;
+  width: 30%;
+  border-radius: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
